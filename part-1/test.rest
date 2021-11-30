@@ -1,0 +1,12 @@
+// Lấy danh sách meal
+GET https://www.themealdb.com/api/json/v1/1/search.php?s=fish HTTP/1.1
+
+###
+
+// Lấy thông tin về meal theo id
+GET https://www.themealdb.com/api/json/v1/1/lookup.php?i=52802 HTTP/1.1
+
+### 
+
+// Random meal
+GET https://www.themealdb.com/api/json/v1/1/random.php HTTP/1.1
